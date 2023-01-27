@@ -1,0 +1,41 @@
+#!/bin/env bash
+
+# Options for powermenu
+lock=' Lock'
+logout=' Logout'
+sleep=' Sleep'
+shutdown=' OFF'
+reboot=' Reboot'
+host="$(cat /etc/os-release | grep ^NAME | sed 's/NAME=//g' | sed 's/"//g')" 
+
+
+# Get answer from user via rofi
+selected_option=$(echo "$lock
+$logout
+$sleep
+$reboot
+$shutdown" | rofi -dmenu\
+                  -p "$host" \
+                  -mesg "Uptime: $(uptime -p | sed s/up//g)"\
+                  -theme "~/.config/i3/rofi/config/powermenu.rasi")
+# Do something based on selected option
+if [ "$selected_option" == "$lock" ]
+then
+    i3lock-fancy
+elif [ "$selected_option" == "$logout" ]
+then
+    loginctl terminate-user `whoami`
+elif [ "$selected_option" == "$shutdown" ]
+then
+    systemctl poweroff
+elif [ "$selected_option" == "$reboot" ]
+then
+    systemctl reboot
+elif [ "$selected_option" == "$sleep" ]
+then
+    amixer set Master mute
+    systemctl suspend
+else
+    echo "No match"
+fi
+

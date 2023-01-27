@@ -1,0 +1,30 @@
+#!/bin/env bash
+
+# Options for powermenu
+previous="Previous"
+play_pause="Play/Pause"
+next="Next"
+
+msg=$(playerctl metadata xesam:album)
+
+# Get answer from user via rofi
+selected_option=$(echo "$previous
+$play_pause
+$next" | rofi -dmenu\
+                  -mesg "Now Playing : $msg"\
+                  -font "Cascadia Code 12"\
+                  -theme ~/.config/i3/rofi/config/music.rasi)
+# Do something based on selected option
+if [ "$selected_option" == "$previous" ]
+then
+    playerctl previous
+elif [ "$selected_option" == "$play_pause" ]
+then
+    playerctl play-pause
+elif [ "$selected_option" == "$next" ]
+then
+    playerctl next
+else
+    echo "No match"
+fi
+
