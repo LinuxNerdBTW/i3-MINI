@@ -32,7 +32,10 @@
 
 * git clone https://github.com/LinuxNerdBTW/i3-MINI.git && cd i3-MINI
 * cp -rv config/* ~/.config/
+* cp -rv local/share/* ~/.local/share/
 ```
+### [ Theeming ] 
+* Use Lxappearance For Changing Desktop Icons and Application Themes - Gtk Applications 
 ### [ Launching ] 
 * Add This Line To Your ~/.xinitrc file
 
