@@ -1,5 +1,5 @@
 
-# i3 WM Minimal Configurations
+<h align="center"> DOTFILES </h>
 
 ## APPS [ Make sure u have installed this ]
 
