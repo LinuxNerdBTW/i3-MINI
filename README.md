@@ -1,5 +1,7 @@
 
-<h align="center"> DOTFILES </h>
+<p align="center">
+  <b> ~ i3 Wm's configuration files ~ </b>
+</p>
 
 ## APPS [ Make sure u have installed this ]
 
