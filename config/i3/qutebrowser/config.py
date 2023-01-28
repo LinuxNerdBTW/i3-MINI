@@ -4,7 +4,7 @@ config.load_autoconfig()
 
 # config.set("colors.webpage.darkmode.enabled", True)
 
-# c.aliases['foo'] = 'message-info foo'
+c.aliases['foo'] = 'message-info foo'
 c.url.start_pages = ["https://bing.com"]
 pywalQute.draw.color(c, {
     'spacing': {
