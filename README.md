@@ -19,7 +19,7 @@
 * Browser : qutebrowser -> As my choice you can use your own choice 
 * colorscheme generator : pywal -> colorscheme generator using wallpaper
 ## [ Dependencies Installation ] 
-* sudo pacman -S polybar i3-wm rofi kitty brightnessctl nmtui dunst imagemagick pavucontrol feh pcmanfm qutebrowser python-pywal ttf-jetbrains-mono-nerd cantarell-fonts ttf-meslo-nerd
+* sudo pacman -S polybar i3-wm rofi kitty brightnessctl nmtui dunst imagemagick pavucontrol feh pcmanfm qutebrowser python-pywal ttf-jetbrains-mono-nerd cantarell-fonts ttf-meslo-nerd materia-gtk-theme gtk-engines gtk-engine-murrine lxappearance
 * paru -S i3lock-fancy python-pywalfox wal-telegram-git tela-circle-icon-theme-purple
 
 ## [ Installation ]

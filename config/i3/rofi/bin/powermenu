@@ -1,11 +1,11 @@
 #!/bin/env bash
 
 # Options for powermenu
-lock=' Lock'
-logout=' Logout'
-sleep=' Sleep'
-shutdown=' OFF'
-reboot=' Reboot'
+lock=' Lock'
+logout=' Logout'
+sleep='󰤄 Sleep'
+shutdown=' OFF'
+reboot=' Reboot'
 host="$(cat /etc/os-release | grep ^NAME | sed 's/NAME=//g' | sed 's/"//g')" 
 
 
