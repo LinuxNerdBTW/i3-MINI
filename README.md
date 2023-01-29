@@ -31,12 +31,12 @@
 
 ----
 
-[![Watch Now](https://img.youtube.com/vi/reBTqKR8SM4/0.jpg)](https://www.youtube.com/watch?v=reBTqKR8SM4)
+ [![Watch Now](https://img.youtube.com/vi/reBTqKR8SM4/0.jpg)](https://www.youtube.com/watch?v=reBTqKR8SM4) 
 
 ----
 
 
-
+{% include youtube.html id="reBTqKR8SM4" %}
 
 
 
