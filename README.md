@@ -28,7 +28,8 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=reBTqKR8SM4" target="_blank" >
-    <img src="http://img.youtube.com/vi/reBTqKR8SM4/mqdefault.jpg" alt="Watch the video" border="5" />
+    <img src="http://img.youtube.com/vi/reBTqKR8SM4/mqdefault.jpg" width="560" height="315" alt="Watch the video" border="5" />
+   
   </a>
 </p>
 
