@@ -3,6 +3,17 @@
   <b> ~ i3 Wm's configuration files ~ </b>
 </p>
 
+<p align="center">
+  <b> ~ Show Case ~ </b>
+</p>
+
+[![Watch Now](https://img.youtube.com/vi/reBTqKR8SM4/0.jpg)](https://www.youtube.com/watch?v=reBTqKR8SM4)
+
+
+
+
+
+
 ### APPS [ Make sure u have installed this ]
 
 ```
