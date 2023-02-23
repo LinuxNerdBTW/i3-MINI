@@ -28,7 +28,7 @@ sleep 4
 # Dependencies 
 
 echo "Installing Dependencies ..............."
-sudo pacman -Sy polybar i3-wm rofi kitty brightnessctl nmtui dunst imagemagick pavucontrol feh pcmanfm qutebrowser python-pywal ttf-jetbrains-mono-nerd cantarell-fonts ttf-meslo-nerd noto-fonts materia-gtk-theme gtk-engines gtk-engine-murrine lxappearance
+sudo pacman -Sy polybar i3-wm rofi kitty brightnessctl dunst nm-connection-editor imagemagick pavucontrol feh pcmanfm qutebrowser python-pywal ttf-jetbrains-mono-nerd cantarell-fonts ttf-meslo-nerd noto-fonts materia-gtk-theme gtk-engines gtk-engine-murrine lxappearance
 
 if [ $(pacman -Q paru | awk '{print $1}') == 'paru' ];
 then
@@ -39,7 +39,7 @@ fi
 
 
 echo "Cloning Repo in TMP"
-mkdir /tmp/i3-MINI && git clone https://github.com/LinuxNerdBTW/i3-MINI.git && cd /tmp/i3-MINI
+mkdir /tmp/i3-MINI && git clone https://github.com/LinuxNerdBTW/i3-MINI.git /tmp/i3-MINI && cd /tmp/i3-MINI
 echo "Copying to ~/.config/"
 cp -rv config/* ~/.config/
 echo "Copying to ~/.local/share/"
